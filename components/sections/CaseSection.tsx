@@ -53,7 +53,7 @@ export const CaseSection = () => {
         description: study.short_description,
         image: study.image_url, // use full URL
         buttonText: "View Details",
-        link: "#", // If you have a details page, you can replace this
+        link: study?.link, // If you have a details page, you can replace this
     }));
 
     return (
