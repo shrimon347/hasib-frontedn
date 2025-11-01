@@ -10,7 +10,8 @@ export const useLenis = () => {
             easing: (t: number) => t, // linear easing
             orientation: "vertical", // scroll direction
             gestureOrientation: "vertical",
-            smooth: true, // use `smooth` instead of smoothWheel/smoothTouch
+            smoothWheel: true, // enable smooth wheel
+            smoothTouch: true, // enable smooth touch
         });
 
         function raf(time: number) {
