@@ -13,7 +13,6 @@ const CustomCursor = () => {
         };
 
         const follow = () => {
-            // Smooth interpolation (lower factor = smoother/slower)
             trailing.current.x += (pos.current.x - trailing.current.x) * 0.15;
             trailing.current.y += (pos.current.y - trailing.current.y) * 0.15;
 
@@ -37,8 +36,11 @@ const CustomCursor = () => {
     return (
         <div
             ref={cursorRef}
-            className="fixed top-0 left-0 w-10 h-10 border-2 border-blue rounded-full pointer-events-none z-9999"
-        />
+            className="fixed top-0 left-0 w-10 h-10 border-2 border-blue rounded-full pointer-events-none z-50 flex items-center justify-center"
+        >
+            {/* Dot in the center */}
+            <div className="w-2 h-2 bg-blue rounded-full" />
+        </div>
     );
 };
 
