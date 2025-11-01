@@ -65,7 +65,7 @@ const Navbar = () => {
                     <div className="shrink-0">
                         <Link href="/" className="text-xl font-bold">
                             <Image
-                                src="/logo.png"
+                                src="/Logo.png"
                                 alt="Logo"
                                 width={68}
                                 height={70}
