@@ -10,6 +10,7 @@ type CaseStudy = {
     short_description: string;
     image: string;
     image_url: string;
+    link: string;
 };
 
 export const CaseSection = () => {
