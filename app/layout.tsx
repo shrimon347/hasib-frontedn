@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Md. Hasibul Hasan",
     description: "Personal portfolio showcasing my work and skills",
     icons: {
-    icon: "/Logo.png", // Add your favicon here
+    icon: "/Logo.png", 
   },
 };
 
