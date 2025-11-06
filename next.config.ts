@@ -8,6 +8,11 @@ const nextConfig = {
                 hostname: "hasib-backend.onrender.com",
                 pathname: "/**",
             },
+            {
+                protocol: "https",
+                hostname: "res.cloudinary.com",
+                pathname: "/**",
+            },
         ],
     },
 };
